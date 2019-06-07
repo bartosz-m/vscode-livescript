@@ -1,0 +1,46 @@
+{
+	"version": "0.0.1",
+	
+	"configurations": [
+		{
+			"type": "extensionHost",
+			"request": "launch",
+			"name": "Launch Client",
+			"runtimeExecutable": "${execPath}",
+			"args": ["--extensionDevelopmentPath=${workspaceRoot}" ],
+			"stopOnEntry": false,
+			"sourceMaps": true,
+			"outFiles": ["${workspaceRoot}/client/lib/**/*.js"],
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Server 6010",
+			"address": "localhost",
+			"protocol": "inspector",
+			"port": 6010,
+			"sourceMaps": true,
+			"outFiles": ["${workspaceRoot}/server/lib/**/*.js"]
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Server 6011",
+			"address": "localhost",
+			"protocol": "inspector",
+			"port": 6011,
+			"sourceMaps": true,
+			"outFiles": ["${workspaceRoot}/server/lib/**/*.js"]
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Server 6012",
+			"address": "localhost",
+			"protocol": "inspector",
+			"port": 6012,
+			"sourceMaps": true,
+			"outFiles": ["${workspaceRoot}/server/lib/**/*.js"]
+		}
+	]
+}

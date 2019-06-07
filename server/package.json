@@ -1,0 +1,22 @@
+{
+  "name": "lsp-livescript-server",
+  "version": "0.0.1",
+  "description": "Livescript LSP server",
+  "main": "lib/server",
+  "scripts": {
+    "develop": "node -r livescript-system/register dev/develop.ls"
+  },
+  "author": "Bartosz Matuszewski <bartosz.wojciech.matuszewski@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "fuzzysort": "^1.1.4",
+    "livescript-compiler": "^0.1.1",
+    "livescript-preset-experimental": "^1.1.0",
+    "livescript-system": "^1.0.1",
+    "livescript-transform-esm": "^3.0.1",
+    "livescript-transform-implicit-async": "^1.1.0",
+    "livescript-transform-object-create": "^1.1.0",
+    "livescript-transform-top-level-await": "^1.0.2",
+    "vscode-languageserver": "^5.2.1"
+  }
+}

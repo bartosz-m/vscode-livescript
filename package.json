@@ -1,0 +1,17 @@
+{
+  "name": "vscode-livescript",
+  "version": "0.0.1",
+  "description": "Livescript LSP support for Visual Studio Code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bartosz Matuszewski <bartosz.wojciech.matuszewski@gmail.com>",
+  "license": "BSD-3-Clause",
+  "engines": {
+		"vscode": "^1.34.0"
+  },
+  "activationEvents": [
+    "onLanguage:livescript"
+  ],
+  "main": "./client/lib/index"
+}

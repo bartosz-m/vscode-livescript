@@ -1,0 +1,19 @@
+{
+  "name": "lsp-livescript-client",
+  "version": "0.0.1",
+  "description": "VSCode client part of livescript lsp",
+  "main": "index.js",
+  "scripts": {
+    "develop": "node -r livescript-system/register dev/develop.ls",
+    "postinstall": "vscode-install"
+  },
+  "author": "Bartosz Matuszewski <bartosz.wojciech.matuszewski@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "vscode-languageclient": "^5.2.1"
+  },
+  "devDependencies": {
+    "livescript-preset-experimental": "^1.1.0",
+    "livescript-system": "^1.0.1"
+  }
+}
