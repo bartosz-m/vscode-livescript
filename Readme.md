@@ -40,11 +40,11 @@ Provides simple information based on official livescript documentation.
 
 ![autocompletion](doc/assets/hover-screen.gif)
 
-# Plugins
+<!-- # Plugins
 ## Live preview
 
 Install [livescript-ide-preview](https://atom.io/packages/livescript-ide-preview) to get preview of current file transpiled to js.
-![live preview](https://raw.githubusercontent.com/bartosz-m/livescript-ide-preview/master/doc/assets/screenshot-01.gif)
+![live preview](https://raw.githubusercontent.com/bartosz-m/livescript-ide-preview/master/doc/assets/screenshot-01.gif) -->
 
 # License 
 **[BSD-3-Clause](License.md)**
