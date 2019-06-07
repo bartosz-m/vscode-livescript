@@ -1,4 +1,4 @@
-Language Server Protocol for LiveScript implemented as plugin for Atom editor.
+Language Server Protocol for LiveScript implemented as plugin for VSCode.
 
 Behind the scene it uses pluggable LiveScript [compiler](https://github.com/bartosz-m/livescript-compiler)
 
